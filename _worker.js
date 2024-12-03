@@ -40,7 +40,7 @@ let 有效时间 = 7;//有效时间 单位:天
 let 更新时间 = 3;//更新时间
 let userIDLow;
 let userIDTime = "";
-let proxyIPPool = [];
+let proxyIPPool = [bpb.yousef.isegaro.com];
 export default {
 	async fetch(request, env, ctx) {
 		try {
